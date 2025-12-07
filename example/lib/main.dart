@@ -1,3 +1,5 @@
+// Paste this file into your Flutter project and see how beautifully perfect Flutter code can be!
+
 import 'package:flutter/material.dart';
 import 'package:switchy/switchy.dart';
 
@@ -379,16 +381,25 @@ class _SwitchyExampleState extends State<SwitchyExample> {
                                   icon: Icons.check_circle,
                                   color: Colors.green,
                                   label: "Enabled",
-                                  count:
-                                      "${[notifications, wifi, autoSync, customColors, customDemo2].where((v) => v).length}",
+                                  count: "${[
+                                    notifications,
+                                    wifi,
+                                    autoSync,
+                                    customColors,
+                                    customDemo2
+                                  ].where((v) => v).length}",
                                 ),
                                 _buildStatItem(
                                   isDark: isDark,
                                   icon: Icons.remove_circle,
                                   color: Colors.red,
                                   label: "Disabled",
-                                  count:
-                                      "${[darkMode, airplaneMode, bluetooth, batterySaver].where((v) => v).length}",
+                                  count: "${[
+                                    darkMode,
+                                    airplaneMode,
+                                    bluetooth,
+                                    batterySaver
+                                  ].where((v) => v).length}",
                                 ),
                                 _buildStatItem(
                                   isDark: isDark,
