@@ -4,7 +4,6 @@
 [![Flutter Favorite](https://img.shields.io/badge/Flutter-Favorite-blue)](https://flutter.dev)
 [![likes](https://img.shields.io/pub/likes/switchy)](https://pub.dev/packages/switchy/score)
 [![points](https://img.shields.io/pub/points/switchy)](https://pub.dev/packages/switchy/score)
-[![popularity](https://img.shields.io/pub/popularity/switchy)](https://pub.dev/packages/switchy/score)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Transform your Flutter apps with beautifully animated, fully customizable toggle switches that delight users.
