@@ -203,7 +203,7 @@ Switchy(
 #### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/switchy.git
+git clone https://github.com/unclegenson/switchy.git
 flutter pub get
 cd example
 flutter run
@@ -227,13 +227,13 @@ flutter run
 
 Used in productivity, social media, e-commerce apps, and more.
 
-Share your creation! Tag [@YourHandle] or submit a PR.
+Share your creation! Tag [@unclegenson](https://t.me/unclegenson) or submit a PR.
 
 ### 📄 License
 
 MIT License
 
-Copyright (c) 2024 Your Name
+Copyright (c) 2024 UncleGenSon
 
 Permission granted free of charge to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
 
@@ -246,13 +246,11 @@ Permission granted free of charge to use, copy, modify, merge, publish, distribu
 
 ### 📞 Support
 
-* Email: [your.email@example.com](mailto:your.email@example.com)
-* Twitter: @YourHandle
-* Discord: Join our community
+* Email: [unclegenson@gmail.com](mailto:unclegenson@gmail.com)
+* Telegram: [@unclegenson](https://t.me/unclegenson)
+* GitHub: [unclegenson](https://github.com/unclegenson)
 * Issues: GitHub Issues
 
 <div align="center">
-Made with ❤️ for the Flutter community
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%2520Me%2520A%2520Coffee-Support-yellow.svg)]
-[![Sponsor GitHub](https://img.shields.io/badge/Sponsor-GitHub-blue.svg)]
+Made with ❤️ by UncleGenSon for the Flutter community
 </div>
