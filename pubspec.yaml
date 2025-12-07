@@ -1,6 +1,6 @@
 name: switchy
 description: A beautiful, customizable, animated Flutter switch with support for IconData and SVGs. Perfect for adding smooth, modern toggle buttons to your app.
-version: 1.0.0+1
+version: 1.0.1+2
 homepage: https://github.com/unclegenson/switchy
 repository: https://github.com/unclegenson/switchy.git
 issue_tracker: https://github.com/unclegenson/switchy/issues

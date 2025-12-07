@@ -426,7 +426,7 @@ class _SwitchyExampleState extends State<SwitchyExample> {
                             ),
                             const SizedBox(height: 8),
                             Text(
-                              "switchy v1.0.0",
+                              "switchy v1.0.1",
                               style: TextStyle(
                                 fontSize: 12,
                                 color: isDark

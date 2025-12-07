@@ -30,7 +30,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  switchy: ^1.0.0
+  switchy: ^1.0.1
   flutter_svg: ^2.0.0+1  # Optional, for SVG support
 ```
 

@@ -2,7 +2,7 @@
 
 All notable changes to the Switchy package will be documented in this file.
 
-## [1.0.0+1] - 2024-01-XX
+## [1.0.1+2] - 2024-01-XX
 
 ### 🎉 Initial Public Release
 **Published by UncleGenSon**
@@ -36,7 +36,7 @@ All notable changes to the Switchy package will be documented in this file.
 - Clean and maintainable codebase
 
 #### 📦 Package Info
-- **Version**: 1.0.0+1
+- **Version**: 1.0.1+2
 - **Flutter**: >=3.10.0
 - **Dart**: >=3.0.0
 - **License**: MIT
