@@ -1,0 +1,6 @@
+include: package:flutter_lints/flutter.yaml
+
+# For examples, we can be less strict
+linter:
+  rules:
+    avoid_print: false  # Allow print in examples
