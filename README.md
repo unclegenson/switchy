@@ -35,13 +35,11 @@ dependencies:
   flutter_svg: ^2.0.0+1  # Optional, for SVG support
 ```
 
-🎨 Demo
-Dark/Light Mode Toggle
-<img src="https://github.com/unclegenson/switchy/blob/main/assets/demo1.gif?raw=true" width="400"/>
-Notifications Toggle
-<img src="https://github.com/unclegenson/switchy/blob/main/assets/demo2.gif?raw=true" width="400"/>
-Airplane Mode Toggle
-<img src="https://github.com/unclegenson/switchy/blob/main/assets/demo3.gif?raw=true" width="400"/>
+### 🎨 Demo
+
+| Dark/Light Mode | Notifications | Airplane Mode |
+|-----------------|---------------|---------------|
+| <img src="https://github.com/unclegenson/switchy/blob/main/assets/demo1.gif?raw=true" width="250"/> | <img src="https://github.com/unclegenson/switchy/blob/main/assets/demo2.gif?raw=true" width="250"/> | <img src="https://github.com/unclegenson/switchy/blob/main/assets/demo3.gif?raw=true" width="250"/> |
 
 ### 2. Basic Usage
 
