@@ -249,7 +249,6 @@ Permission granted free of charge to use, copy, modify, merge, publish, distribu
 * Email: [unclegenson@gmail.com](mailto:unclegenson@gmail.com)
 * Telegram: [@unclegenson](https://t.me/unclegenson)
 * GitHub: [unclegenson](https://github.com/unclegenson)
-* Issues: GitHub Issues
 
 <div align="center">
 Made with ❤️ by UncleGenSon for the Flutter community
