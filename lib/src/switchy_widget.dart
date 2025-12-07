@@ -4,43 +4,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Switchy extends StatefulWidget {
-  /// وضعیت فعلی روشن یا خاموش بودن
   final bool value;
-
-  /// تابعی که هنگام تغییر وضعیت صدا زده می‌شود
   final ValueChanged<bool> onChanged;
-
-  /// آیکون هنگام روشن بودن (می‌تواند IconData یا مسیر SVG باشد)
   final dynamic activeIcon;
-
-  /// آیکون هنگام خاموش بودن
   final dynamic inactiveIcon;
-
-  /// اندازه آیکون یا SVG
   final double iconSize;
-
-  /// رنگ‌های گرادیان برای حالت روشن
   final List<Color> activeColors;
-
-  /// رنگ‌های گرادیان برای حالت خاموش
   final List<Color> inactiveColors;
-
-  /// مدت زمان انیمیشن
   final Duration duration;
-
-  /// ارتفاع سوئیچ
   final double height;
-
-  /// عرض سوئیچ
   final double width;
-
-  /// حاشیه داخلی دایره سفید
   final double circlePadding;
-
-  /// حاشیه دایره سفید از لبه‌ها (برای جلوگیری از چسبیدن زیاد)
   final double circleMargin;
-
-  /// اندازه دایره سفید (نسبت به ارتفاع)
   final double circleSizeRatio;
 
   const Switchy({
@@ -56,7 +31,7 @@ class Switchy extends StatefulWidget {
     this.height = 36,
     this.width = 70,
     this.circlePadding = 6,
-    this.circleMargin = 6, // تغییر از 4 به 6
+    this.circleMargin = 6,
     this.circleSizeRatio = 0.7,
   });
 
@@ -65,7 +40,6 @@ class Switchy extends StatefulWidget {
 }
 
 class _SwitchyState extends State<Switchy> {
-  /// تشخیص می‌دهد آیکون مثل IconData است یا SVG
   Widget _buildIcon(dynamic icon) {
     if (icon is IconData) {
       return Icon(
@@ -85,19 +59,14 @@ class _SwitchyState extends State<Switchy> {
     }
 
     throw FlutterError(
-        "Switchy: activeIcon و inactiveIcon باید IconData یا مسیر SVG باشند.");
+        "Switchy: activeIcon and inactiveIcon must be IconData or SVG path.");
   }
 
   @override
   Widget build(BuildContext context) {
-    // محاسبه اندازه دایره بر اساس ارتفاع و نسبت
     final circleSize = widget.height * widget.circleSizeRatio;
-
-    // محاسبه موقعیت عمودی دایره (وسط قرارگیری)
     final circleTop = (widget.height - circleSize) / 2;
-
-    // محاسبه موقعیت افقی آیکون‌ها
-    final iconLeftMargin = widget.circleMargin + 2; // کمی بیشتر از دایره
+    final iconLeftMargin = widget.circleMargin + 2;
     final iconRightMargin =
         widget.width - widget.iconSize - widget.circleMargin - 2;
 
@@ -128,7 +97,6 @@ class _SwitchyState extends State<Switchy> {
         ),
         child: Stack(
           children: [
-            /// آیکون روشن/خاموش - سمت راست برای روشن، سمت چپ برای خاموش
             AnimatedPositioned(
               duration: widget.duration,
               curve: Curves.easeInOut,
@@ -141,8 +109,6 @@ class _SwitchyState extends State<Switchy> {
                     : _buildIcon(widget.inactiveIcon),
               ),
             ),
-
-            /// دایره سفید متحرک
             AnimatedPositioned(
               duration: widget.duration,
               curve: Curves.easeInOut,
